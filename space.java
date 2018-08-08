@@ -10,7 +10,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int count=1;
+		int count=0;
 		String st;
 		Scanner s=new Scanner(System.in);
 		st=s.nextLine();
