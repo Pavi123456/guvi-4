@@ -20,7 +20,7 @@ class Ideone
 			sum++;
 			
 		}
-		if(sum==2)
+		if(sum==1)
 		System.out.println("yes");
 		else
 		System.out.println("no");
