@@ -17,6 +17,6 @@ class Ideone
 		r=s.nextInt();
 		double si;
 		si=(p*t*r)/100;
-		System.out.println(Math.floor(si));
+		System.out.println(Math.round(si));
 	}
 }
