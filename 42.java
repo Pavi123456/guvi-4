@@ -14,7 +14,7 @@ class Ideone
 		String st1,st2;
 		st1=s.next();
 		st2=s.next();
-		if(st1.length()>=st2.length())
+		if(st1.length()>st2.length())
 		System.out.println(st1);
 		else
 		System.out.println(st2);
