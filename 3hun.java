@@ -29,7 +29,8 @@ class Ideone
 		
 		}
 		Arrays.sort(a);
-		for(int i=0;i<a.length;i++)
+		int x=a.length;
+		for(int i=0;i<x;i++)
 		{
 		if(a[i]!=0)
 		{m++;
@@ -39,6 +40,13 @@ class Ideone
 		System.out.print(" "+a[i]);
 		else
 		System.out.print("-1");
-		}}
+		}
+		else
+		{
+			m++;
+			if(m==x)
+				System.out.print("-1");
+		}
+		}
 	}
 }
