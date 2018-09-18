@@ -23,7 +23,7 @@ class Ideone
 		{
 			if(a[i]!=i)
 			{
-				a[i]=0;
+				a[i]=-5;
 			}
 			
 		
@@ -32,7 +32,7 @@ class Ideone
 		int x=a.length;
 		for(int i=0;i<x;i++)
 		{
-		if(a[i]!=0)
+		if(a[i]!=-5)
 		{m++;
 		if(m==1)
 		System.out.print(a[i]);
