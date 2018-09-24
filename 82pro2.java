@@ -17,15 +17,15 @@ class Ideone
 		{
 			a[i]=s.nextInt();
 		}
-		ArrayList<Integer>al=new ArrayList<Integer>();
+		int y=0;
 		for(int i=0;i<n;i++)
 		{
-			for(int j=0;j<n;j++)
+			for(int j=i+1;j<n;j++)
 			{
-				int y=a[i]&a[j];
-				al.add(y);
+				 y=a[i]&a[j];
+				
 			}
 		}
-		System.out.println(Collections.max(al));
+		System.out.println(y);
 	}
 }
