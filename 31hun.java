@@ -22,6 +22,6 @@ class Ideone
 		{
 			temp=temp*a[i];
 		}
-		System.out.print(temp);
+		System.out.print(Math.abs(temp));
 	}
 }
