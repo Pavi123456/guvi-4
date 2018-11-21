@@ -16,7 +16,10 @@ class Ideone
 		int l=st.length();
 		for(int i=0;i<=l-n;i++)
 		{
+			if(i<l-n)
 			System.out.print(st.substring(i,i+n)+" ");
+			else
+				System.out.print(st.substring(i,i+n));
 		}
 	}
 }
